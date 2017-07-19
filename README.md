@@ -3,12 +3,16 @@
 
 1.PlayingView  展示当前播放状态
 
-借鉴https://github.com/HaoTianYi/PlayView 
+&nbsp; &nbsp; &nbsp;借鉴https://github.com/HaoTianYi/PlayView 
 
-效果如下图：
+&nbsp; &nbsp; &nbsp;效果如下图：
 
-![](播放.gif)
+&nbsp; &nbsp; &nbsp;![](播放.gif)
 
 2.DrawableVerticalCenterTextView 
   
-  TextView左右drawable图标垂直居中
+  &nbsp; &nbsp; &nbsp;TextView左右drawable图标垂直居中
+  
+3.FilterImageView
+
+&nbsp; &nbsp; &nbsp;自带按下效果(半透明灰色)ImageView： 存在问题：在ListView、gridview等中若设置了onItemClick之类时，无法回复原状态
