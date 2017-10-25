@@ -1,5 +1,5 @@
 
-[![gradle](https://img.shields.io/badge/gradle-2.3.2-blue.svg)](https://img.shields.io/badge/gradle-2.3.2-blue.svg))
+[![gradle](https://img.shields.io/badge/gradle-2.3.2-blue.svg)](https://img.shields.io/badge/gradle-2.3.2-blue.svg)
 # CustomViewNote
 **记录平时用到的自定义View**
 
