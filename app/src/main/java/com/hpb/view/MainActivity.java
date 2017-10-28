@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         playView=(PlayingView)findViewById(R.id.channel_playing);
+        BadgeTextView badgeTextView=(BadgeTextView) findViewById(R.id.badgeView);
+        badgeTextView.setText("测试简单badge");
+        badgeTextView.setBadge(R.drawable.vip);
     }
 
     @Override

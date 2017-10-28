@@ -12,10 +12,43 @@
         android:maxHeight="30dp"
         android:maxWidth="54dp"
         android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"
+        android:layout_marginTop="60dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.hpb.view.FilterImageView
+        android:id="@+id/filterView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/meizi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/channel_playing" />
+
+    <com.hpb.view.DrawableVerticalCenterTextView
+        android:id="@+id/dvcView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="6dp"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="center"
+        android:text="测试drawableCenterView"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filterView" />
+    <com.hpb.view.BadgeTextView
+        android:id="@+id/badgeView"
+        android:layout_width="40dp"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dvcView"
+        android:layout_height="60dp" />
 
 </android.support.constraint.ConstraintLayout>
